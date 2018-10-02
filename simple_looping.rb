@@ -30,3 +30,9 @@ def until_iterator(num)
   end
 end
 
+def for_iterator(num) 
+  for int in 1..num  
+    puts "Welcome to Flatiron School's Web Development Course!"
+  end
+end
+
