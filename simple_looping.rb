@@ -13,3 +13,11 @@ def times_iterator(num)
     puts "Welcome to Flatiron School's Web Development Course!"
   end
 end
+
+def while_iterator(num) 
+  counter = 0 
+  while counter < num  
+    puts "Welcome to Flatiron School's Web Development Course!"
+    counter += 1
+  end
+end
