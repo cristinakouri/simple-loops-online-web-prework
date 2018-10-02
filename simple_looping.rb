@@ -6,3 +6,10 @@ def loop_iterator(num)
     break if counter >= num 
   end
 end
+
+def times_iterator(num) 
+  counter = 0 
+  num.times do 
+    puts "Welcome to Flatiron School's Web Development Course!"
+  end
+end
