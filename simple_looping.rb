@@ -21,3 +21,12 @@ def while_iterator(num)
     counter += 1
   end
 end
+
+def until_iterator(num) 
+  counter = 0 
+  until counter == num  
+    puts "Welcome to Flatiron School's Web Development Course!"
+    counter += 1
+  end
+end
+
