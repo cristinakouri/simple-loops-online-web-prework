@@ -1,7 +1,8 @@
-def loop_iterator(num) 
-  counter = 0
-  until counter ==  7 
+def loops 
+  counter = 0 
+  loop do 
     puts "Welcome to Flatiron School's Web Development Course!"
-    counter += 1 
+    counter += 1
+    break if counter >= 7 
   end
 end
